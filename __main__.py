@@ -213,6 +213,7 @@ def main():
 
     if not is_balanced(supply, demand):
         print("The problem is not balanced!")
+        exit(1)
 
     initial_costs = copy_list(costs)
     result = [[]]
